@@ -6,11 +6,12 @@
 <tr><td>2. Local Wallet: https://github.com/catscoinofficial/cats/releases/tag/v1.0.0</td></tr>
 <tr><td>3. VPS with Ubuntu 18.04</td></tr>
 </table>
-VPS Commands:
-bash
-wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh 
-bash
-sudo chmod +x catscoin-mninstall-1804.sh
 
-bash
-./catscoin-mninstall-1804.sh
+
+### VPS Commands:
+
+bash wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh 
+
+bash sudo chmod +x catscoin-mninstall-1804.sh
+
+bash ./catscoin-mninstall-1804.sh
