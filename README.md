@@ -11,10 +11,13 @@
 VPS Commands:
 
 bash
-wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh 
+sudo wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh
 ```
+
 bash
 sudo chmod +x catscoin-mninstall-1804.sh
+```
+
 ```
 bash
 ./catscoin-mninstall-1804.sh
