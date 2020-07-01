@@ -1,15 +1,11 @@
-###Masternode Setup Script here 1804 Linux
+<p>### For Ubuntu-18.04 <br>
+<p>Required:<br>
+<p>1. Catscoin  for Collateral <br>
+<p>2. Local Wallet: https://github.com/catscoinofficial/cats/releases/tag/v1.0.0<br>
+<p>3. VPS with Ubuntu 18.04<br>
+<p>VPS Commands:<br>
 
-Required:
-1. enough Coins for setup a masternode
-2. Local Wallet: https://github.com/catscoinofficial/cats/releases/tag/v1.0.0
-3. VPS with Ubuntu 18.04
 
-
-### open your VPS: 
-
-wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh
-
-sudo chmod +x catscoin-mninstall-1804.sh 
-
-./catscoin-mninstall-1804.sh
+<p>wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh  <br>
+<p>sudo chmod +x catscoin-mninstall-1804.sh <br>
+<p>./catscoin-mninstall-1804.sh<br>
