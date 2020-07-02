@@ -11,7 +11,7 @@
 VPS Commands:
 
 ```
-sudo wget -q https://github.com/catscoinofficial/mn-setup/blob/master/catscoin-mninstall-1804.sh
+wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/catscoin-mninstall-1804.sh
 ```
 
 ```
