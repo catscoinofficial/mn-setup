@@ -81,10 +81,15 @@ Modify the following line in your masternode.conf file and paste it into:
 MN1 VPSIP:22878 7VatfYVk5fFMTymPDhgSURAESDACJhWpd89WHGoh35d9fbLQPj5 506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9 1
 ```
 MN1 - Alias for your masternode.
+
 VPSIP- External IP address of your VPS.
+
 22878 - The port for Catscoin
+
 7VatfYVk5fFMTymPDhgSURAESDACJhWpd89WHGoh35d9fbLQPj5 - Masternode private key from the command “createmasternodekey”.
+
 506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9 - Value “txhash” from the command “getmasternodeoutputs”.
+
 1 - Value “outputidx” from the command “getmasternodeoutputs”.
 
 
