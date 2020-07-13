@@ -1,30 +1,38 @@
+# MasternodeSetup
+
+### Required:
+
+1. Catscoin for Collateral <br>
+(You can buy CATS from exchange for collateral) <br>
+***•https://graviex.net/markets/catsbtc <br>
+•https://www.unnamed.exchange/Exchange/Basic?market=CATS_BTC <br>***
+
+2. Download your Local Wallet: https://github.com/catscoinofficial/cats/releases
+
+- You can see daily income and collateral info here: https://masternodes.online/currencies/CATS/
 
 
-The VPS needs 1gb memory 
-5gb hard disk 
-### For Ubuntu-18.04
+3. You will need also VPS with Ubuntu 16.04 or 18.04
 
-<table>
-<tr><td>Required:</td></tr>
-<tr><td>1. enough Catscoin for the masternode </td></tr>
-<tr><td>2. Local Wallet: https://github.com/catscoinofficial/cats/releases/tag/v1.0.0</td></tr>
-<tr><td>3. VPS with Ubuntu 18.04</td></tr>
-</table>
+### Usage
 
+1. After you longin on your VPS , with this command you will download masternode-installer.   
+`wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/masternode-install-ubuntu-16.04.sh`  
+- For Ubuntu 18.04 + use this one command   
+`wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/masternode-install-ubuntu-18.04.sh` 
 
-VPS Commands:
+2. With this command you will make masternode-install.sh executable.  
+`sudo chmod +x masternode-install-ubuntu-16.04.sh` <br>
 
-```
-wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/catscoin-mninstall-1804.sh
-```
+- For Ubuntu 18.04+ use this: <br>
+`sudo chmod +x masternode-install-ubuntu-18.04.sh` <br>
 
-```
-sudo chmod +x catscoin-mninstall-1804.sh
-```
+3. Now install your masternode.  
+`./masternode-install-ubuntu-16.04.sh`
 
-```
-./catscoin-mninstall-1804.sh
-```
+- For Ubuntu 18.04+ use this to install masternode: <br>
+`./masternode-install-ubuntu-18.04.sh`
+
 
 
 
