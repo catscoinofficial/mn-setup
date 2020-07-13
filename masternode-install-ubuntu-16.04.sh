@@ -14,7 +14,7 @@ COIN_BOOTSTRAP_NAME=$(echo $COIN_BOOTSTRAP | awk -F'/' '{print $NF}')
 COIN_TGZ=$(echo $COIN_TGZP | awk -F'/' '{print $NF}')
 COIN_NAME='catscoin'
 COIN_NAME_OLD='catscoind'
-PROJECT_NAME='CatsCoin (CATS)'
+PROJECT_NAME='Catscoin (CATS)'
 COIN_EXPLORER='http://95.179.155.62:3001/'
 COIN_PORT=22878
 RPC_PORT=22879
@@ -444,7 +444,7 @@ function important_information() {
  echo -e "Use ${RED}$COIN_CLI getmasternodestatus${NC} to check your MN Status."
  echo -e "Use ${RED}$COIN_CLI mnsync status${NC} to see if the node is synced with the network."
  echo -e "Use ${RED}$COIN_CLI help${NC} for help."
- echo -e "You can also use ${RED}sapinfo${NC}, ${RED}feestats${NC}, ${RED}networkstats${NC} and ${RED}mnstats${NC} commands for a nice looking infos.${NC}"
+ echo -e "You can also use ${RED}catscoin-cli getinfo${NC}, ${RED}catscoin-cli getnetworkinfo${NC}, ${RED}catscoin-cli getconnectioncount${NC}commands for a nice looking infos.${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
 # if [[ -n $SENTINEL_REPO  ]]; then
 #  echo -e "${RED}Sentinel${NC} is installed in ${RED}/root/sentinel_$COIN_NAME${NC}"
