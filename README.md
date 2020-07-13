@@ -14,7 +14,7 @@
 
 3. You will need also VPS with Ubuntu 16.04 or 18.04
 
-### Usage
+**VPS WALLET:**
 
 1. After you longin on your VPS , with this command you will download masternode-installer.   
 `wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/masternode-install-ubuntu-16.04.sh`  
@@ -35,6 +35,7 @@
 
 
 
+**LOCAL WALLET:**
 
 Send the collateral
 Open your wallet and wait until your wallet has downloaded the blockchain.
