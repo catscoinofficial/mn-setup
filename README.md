@@ -21,7 +21,7 @@
 - For Ubuntu 18.04 + use this one command   
 `wget https://raw.githubusercontent.com/catscoinofficial/mn-setup/master/masternode-install-ubuntu-18.04.sh` 
 
-2. With this command you will make masternode-install.sh executable.  
+2. With this command you will make masternode-install-ubuntu-16.04.sh executable.  
 `sudo chmod +x masternode-install-ubuntu-16.04.sh` <br>
 
 - For Ubuntu 18.04+ use this: <br>
